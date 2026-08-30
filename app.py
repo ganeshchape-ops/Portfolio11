@@ -379,7 +379,7 @@ elif menu == "📊 Sales Performance Dashboard":
     # Charts Row 1
     c_left, c_right = st.columns([7, 5])
     
-      with c_left:
+    with c_left:
         monthly_trend = (
             filtered_df.groupby(filtered_df["Date"].dt.to_period("M"))[["Sales", "Profit"]]
             .sum()
