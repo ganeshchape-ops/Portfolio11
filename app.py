@@ -379,8 +379,13 @@ elif menu == "📊 Sales Performance Dashboard":
     # Charts Row 1
     c_left, c_right = st.columns([7, 5])
     
-    with c_left:
-        monthly_trend = filtered_df.set_index("Date").resample("M")[["Sales", "Profit"]].sum().reset_index()
+      with c_left:
+        monthly_trend = (
+            filtered_df.groupby(filtered_df["Date"].dt.to_period("M"))[["Sales", "Profit"]]
+            .sum()
+            .reset_index()
+        )
+        monthly_trend["Date"] = monthly_trend["Date"].dt.to_timestamp()
         fig_trend = px.line(
             monthly_trend,
             x="Date",
