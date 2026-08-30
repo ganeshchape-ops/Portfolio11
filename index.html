@@ -1,0 +1,1715 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- SEO Primary Meta Tags -->
+  <title>Ganesh Chape | Data Analyst Portfolio</title>
+  <meta name="title" content="Ganesh Chape | Data Analyst Portfolio" />
+  <meta name="description" content="Portfolio of Ganesh Chape, a Data Analyst specializing in Python, Pandas, NumPy, Excel, Power BI, data visualization, and dashboard development." />
+  <meta name="keywords" content="Data Analyst, Python, Power BI, Excel, Pandas, NumPy, Data Visualization, Dashboards, EDA, Business Analytics, SQL" />
+  <meta name="author" content="Ganesh Chape" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://yourportfolio.com/" />
+  <meta property="og:title" content="Ganesh Chape | Data Analyst Portfolio" />
+  <meta property="og:description" content="Explore interactive dashboards, Python analytics case studies, and business intelligence projects by Ganesh Chape." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&h=630&q=80" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://yourportfolio.com/" />
+  <meta property="twitter:title" content="Ganesh Chape | Data Analyst Portfolio" />
+  <meta property="twitter:description" content="Explore interactive dashboards, Python analytics case studies, and business intelligence projects by Ganesh Chape." />
+  <meta property="twitter:image" content="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&h=630&q=80" />
+
+  <!-- Structured Data: JSON-LD Person Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Ganesh Chape",
+    "jobTitle": "Data Analyst",
+    "description": "Data Analyst specializing in Python, Pandas, NumPy, Excel, Power BI, and interactive dashboard development.",
+    "knowsAbout": [
+      "Data Analytics",
+      "Python",
+      "Pandas",
+      "NumPy",
+      "Microsoft Excel",
+      "Power BI",
+      "Exploratory Data Analysis",
+      "Data Cleaning",
+      "Data Storytelling",
+      "SQL"
+    ],
+    "email": "mailto:ganeshchape69@gmail.com",
+    "telephone": "744745****",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Sambhajinagar, Maharashtra"
+    },
+    "sameAs": [
+      "[YOUR LINKEDIN URL]",
+      "[YOUR GITHUB URL]"
+    ]
+  }
+  </script>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              purple: '#7C3AED',
+              indigo: '#4F46E5',
+              blue: '#2563EB',
+              cyan: '#06B6D4',
+              emerald: '#10B981',
+              dark: '#070B14',
+              darkcard: '#0F172A',
+            }
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'Inter', 'sans-serif'],
+            mono: ['"JetBrains Mono"', 'monospace'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="./styles.css" />
+
+  <!-- React 18 & Babel for instant zero-config browser execution -->
+  <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body class="bg-[#070B14] text-slate-100 antialiased selection:bg-purple-500 selection:text-white">
+  
+  <!-- Root React App Container -->
+  <div id="root">
+    <!-- Initial Loading Shell for Instant Feedback -->
+    <div class="min-h-screen flex flex-col items-center justify-center space-y-4">
+      <div className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-purple-600 to-cyan-400 animate-spin flex items-center justify-center p-1">
+        <div class="w-full h-full bg-[#070B14] rounded-xl"></div>
+      </div>
+      <p class="text-sm font-mono text-purple-300">Initializing Analytics Engine...</p>
+    </div>
+  </div>
+
+  <!-- Standalone React Component Bundle for Immediate Browser & Local Preview -->
+  <script type="text/babel">
+    const { useState, useEffect } = React;
+
+    // --- DATA STORE ---
+    const portfolioData = {
+      personal: {
+        name: "Ganesh Chape",
+        initials: "GC",
+        role: "Data Analyst | Python & Power BI Enthusiast",
+        tagline: "Turning Raw Data Into Actionable Business Insights",
+        location: "Sambhajinagar, Maharashtra",
+        email: "ganeshchape69@gmail.com",
+        phone: "744745****",
+        linkedin: "[YOUR LINKEDIN URL]",
+        github: "[YOUR GITHUB URL]",
+        resumeUrl: "[YOUR RESUME LINK]",
+        availability: "Available for Full-time & Contract Roles",
+        status: "Open to Work",
+        bioShort: "I transform raw and complex data into clear insights, interactive dashboards, and data-driven business decisions using Python, Pandas, NumPy, Excel, and Power BI.",
+        bioLong: "I am an aspiring Data Analyst with a strong interest in discovering insights from data and helping businesses make better decisions. I work with Python, Pandas, NumPy, Excel, and Power BI to clean data, explore trends, build dashboards, and communicate findings in a clear and impactful way. My passion lies at the intersection of statistical analysis, business problem-solving, and visual data storytelling.",
+      },
+      stats: [
+        { value: "15+", label: "Data Projects Completed" },
+        { value: "12+", label: "Dashboards Created" },
+        { value: "8+", label: "Tools Mastered" },
+        { value: "100%", label: "Business Problem Focused" }
+      ],
+      animatedRoles: [
+        "Data Analyst",
+        "Python Enthusiast",
+        "Power BI Dashboard Developer",
+        "Turning Raw Data Into Useful Insights",
+        "Business Problem Solver"
+      ],
+      aboutCards: [
+        {
+          title: "Education",
+          icon: "🎓",
+          subtitle: "[Your Degree Name]",
+          detail: "[College or University Name], [Graduation Year]"
+        },
+        {
+          title: "Career Goal",
+          icon: "🎯",
+          subtitle: "Data-Driven Decision Making",
+          detail: "Empowering business leaders through reliable predictive & diagnostic analytics."
+        },
+        {
+          title: "Location & Relocation",
+          icon: "📍",
+          subtitle: "Sambhajinagar, Maharashtra",
+          detail: "Open to remote, hybrid, or on-site opportunities worldwide."
+        },
+        {
+          title: "Availability",
+          icon: "⚡",
+          subtitle: "Immediate Joiner",
+          detail: "Ready to contribute to impactful data teams and high-growth projects."
+        }
+      ],
+      approachSteps: [
+        {
+          step: "01",
+          title: "Understand the Business Question",
+          description: "Define core business objectives, identify stakeholders, specify success metrics (KPIs), and frame the analytics problem.",
+          icon: "🎯",
+          color: "border-purple-500 text-purple-400 bg-purple-500/10"
+        },
+        {
+          step: "02",
+          title: "Collect & Clean the Data",
+          description: "Extract raw datasets, handle missing values, eliminate duplicates, standardize formats, and validate data integrity using Python & Power Query.",
+          icon: "🧹",
+          color: "border-indigo-500 text-indigo-400 bg-indigo-500/10"
+        },
+        {
+          step: "03",
+          title: "Analyze Patterns & Trends",
+          description: "Conduct Exploratory Data Analysis (EDA), perform statistical analysis, uncover correlation, and segment data to discover actionable anomalies.",
+          icon: "📊",
+          color: "border-blue-500 text-blue-400 bg-blue-500/10"
+        },
+        {
+          step: "04",
+          title: "Visualize & Recommend Actions",
+          description: "Build interactive dashboards in Power BI, craft visual data stories, and present concrete data-backed recommendations to stakeholders.",
+          icon: "💡",
+          color: "border-cyan-500 text-cyan-400 bg-cyan-500/10"
+        }
+      ],
+      skillCategories: [
+        { id: "all", name: "All Skills" },
+        { id: "analysis", name: "Data Analysis" },
+        { id: "programming", name: "Programming & Tools" },
+        { id: "visualization", name: "Visualization & BI" },
+        { id: "web", name: "Web & Design" }
+      ],
+      skills: [
+        { name: "Data Cleaning", category: "analysis", level: "Advanced", icon: "🧹", description: "Handling nulls, outlier detection, deduplication, type casting, text parsing in Python & Excel." },
+        { name: "Exploratory Data Analysis", category: "analysis", level: "Advanced", icon: "🧭", description: "Uncovering distributions, correlation analysis, multivariate relationships, and anomaly detection." },
+        { name: "Data Transformation", category: "analysis", level: "Intermediate", icon: "🔄", description: "Feature engineering, data restructuring, aggregations, pivoting, and unpivoting workflows." },
+        { name: "Statistical Analysis", category: "analysis", level: "Intermediate", icon: "∑", description: "Descriptive statistics, hypothesis testing concepts, probability distributions, variance analysis." },
+        { name: "Business Insights", category: "analysis", level: "Advanced", icon: "💡", description: "Translating complex analytical findings into executive summaries and actionable growth drivers." },
+        
+        { name: "Python", category: "programming", level: "Advanced", icon: "🐍", description: "Writing clean, efficient analytical scripts, custom functions, automation, and data pipelines." },
+        { name: "Pandas", category: "programming", level: "Advanced", icon: "🐼", description: "DataFrames manipulation, multi-indexing, merging/joining datasets, datetime operations." },
+        { name: "NumPy", category: "programming", level: "Intermediate", icon: "🔢", description: "Vectorized numerical computations, array operations, mathematical transformations, indexing." },
+        { name: "Jupyter Notebook", category: "programming", level: "Advanced", icon: "📓", description: "Documenting interactive data science workflows, visual step-by-step reproducibility, Markdown." },
+        { name: "Basic SQL", category: "programming", level: "Working Knowledge", icon: "🗄️", description: "Querying relational databases, SELECT, WHERE, JOINs, GROUP BY, aggregations, and subqueries." },
+        
+        { name: "Power BI", category: "visualization", level: "Advanced", icon: "📊", description: "Building interactive data models, Star Schema design, custom DAX measures, dynamic drill-throughs." },
+        { name: "Microsoft Excel", category: "visualization", level: "Advanced", icon: "📑", description: "Advanced XLOOKUP/INDEX-MATCH, complex nested formulas, PivotTables, Power Query & charts." },
+        { name: "Interactive Dashboards", category: "visualization", level: "Advanced", icon: "📱", description: "Designing user-centric, responsive dashboards with dynamic filters, cross-highlighting, KPI cards." },
+        { name: "KPI Reporting", category: "visualization", level: "Intermediate", icon: "🎯", description: "Establishing tracking frameworks for revenue, customer retention, operational velocity, and HR metrics." },
+        { name: "Data Storytelling", category: "visualization", level: "Advanced", icon: "🗣️", description: "Structuring narrative presentations that bridge the gap between technical data and executive action." },
+        
+        { name: "HTML5", category: "web", level: "Intermediate", icon: "🌐", description: "Semantic page structure, accessibility tags, responsive layout foundation." },
+        { name: "CSS3 & Tailwind", category: "web", level: "Intermediate", icon: "🎨", description: "Modern CSS Grid, Flexbox, glassmorphism, responsive styling, dark theme customization." },
+        { name: "Responsive Web Design", category: "web", level: "Intermediate", icon: "📐", description: "Creating accessible, seamless experiences across mobile, tablet, and widescreen monitors." },
+        { name: "Portfolio UI Design", category: "web", level: "Working Knowledge", icon: "✨", description: "Clean aesthetic layouts, UI wireframing, component-driven dashboard visual mockups." }
+      ],
+      services: [
+        {
+          id: "data-cleaning",
+          title: "Data Cleaning & Preparation",
+          description: "Organizing, cleaning, and preparing raw messy data for accurate analysis and trustworthy reporting.",
+          icon: "🧹",
+          deliverables: [
+            "Handling missing values & anomalous records",
+            "Standardizing date/time & categorical fields",
+            "Deduplicating & validating raw datasets",
+            "Automating cleaning workflows with Python"
+          ]
+        },
+        {
+          id: "eda",
+          title: "Exploratory Data Analysis",
+          description: "Finding patterns, trends, outliers, and useful insights from complex datasets to guide decisions.",
+          icon: "🔍",
+          deliverables: [
+            "Uncovering statistical distributions & correlations",
+            "Cohort & segmentation analysis",
+            "Identifying revenue drivers & bottleneck areas",
+            "Comprehensive exploratory report summary"
+          ]
+        },
+        {
+          id: "power-bi",
+          title: "Power BI Dashboards",
+          description: "Creating clear, interactive dashboards for tracking executive KPIs and ongoing business performance.",
+          icon: "📊",
+          deliverables: [
+            "Interactive cross-filtering & drill-through pages",
+            "Custom DAX calculations & calculated columns",
+            "Automated scheduled data refresh setups",
+            "Executive-ready summary presentation cards"
+          ]
+        },
+        {
+          id: "excel-analysis",
+          title: "Excel Analysis & Modeling",
+          description: "Using Excel formulas, PivotTables, charts, and automated reports to analyze business data efficiently.",
+          icon: "📑",
+          deliverables: [
+            "Dynamic PivotTables and Power Query models",
+            "Advanced formula architecture (INDEX/MATCH, XLOOKUP)",
+            "Financial & operational KPI tracker templates",
+            "Automated macro-friendly spreadsheet reports"
+          ]
+        },
+        {
+          id: "python-analysis",
+          title: "Python Data Analysis",
+          description: "Using Python, Pandas, and NumPy to analyze large datasets efficiently with reproducible code.",
+          icon: "🐍",
+          deliverables: [
+            "Scripted end-to-end data processing pipelines",
+            "Custom aggregation & statistical scripts",
+            "Exportable CSV/Excel report generation",
+            "Jupyter Notebooks with clear markdown commentary"
+          ]
+        },
+        {
+          id: "data-visualization",
+          title: "Data Visualization & Storytelling",
+          description: "Transforming dry numbers into easy-to-understand charts, reports, and compelling visual stories.",
+          icon: "📈",
+          deliverables: [
+            "Custom charts tailored to executive audiences",
+            "Color-coded anomaly & performance indicators",
+            "Slide deck-ready visual exports",
+            "Data-backed strategic recommendations"
+          ]
+        }
+      ],
+      projects: [
+        {
+          id: "sales-performance-dashboard",
+          title: "Sales Performance Dashboard",
+          category: "Power BI",
+          tools: ["Power BI", "Excel", "DAX", "Power Query"],
+          summary: "Designed an interactive Power BI dashboard to analyze sales performance, monthly revenue, product categories, regional trends, and key performance indicators.",
+          insights: [
+            "Identified 18% YoY revenue surge concentrated in Q3 electronics category",
+            "Uncovered regional profit margin disparities across 4 main sales territories",
+            "Engineered dynamic DAX measures for real-time target vs. actual variance",
+            "Streamlined executive monthly reporting cycle by [Add your real result]"
+          ],
+          metrics: [
+            { label: "Analyzed Records", value: "125K+" },
+            { label: "Target Variance", value: "+14.2%" },
+            { label: "Regional Zones", value: "4 Regions" },
+            { label: "Refresh Cadence", value: "Weekly" }
+          ],
+          caseStudy: {
+            problem: "The sales leadership team lacked unified visibility into regional revenue drivers, product profitability, and monthly target attainment, leading to delayed strategic inventory decisions.",
+            data: "Consolidated multi-year transactional sales dataset containing 125,000+ transaction rows, product catalog hierarchies, customer tiers, and regional target spreadsheets.",
+            analysis: "Built a Star Schema relational data model in Power BI using Power Query. Created custom DAX metrics for Cumulative Sales, YoY Growth %, and Moving Averages to evaluate seasonality.",
+            insights: "West region delivered highest gross revenue ($1.4M) but showed declining margin due to excessive discounting. Core enterprise tier accounted for 64% of total profit margins.",
+            recommendation: "Rebalance regional discount thresholds to cap margins at 15%, prioritize high-margin category B bundles, and automate weekly alert triggers for lagging regions.",
+            result: "Delivered a centralized dashboard adopted by sales management, reducing manual reporting turnaround time by [Add your real result] and clarifying revenue bottlenecks.",
+            challenges: "Resolving mismatched date formatting across disparate regional CRM exports and optimizing DAX measure performance for instant visual cross-filtering."
+          },
+          githubUrl: "[YOUR GITHUB URL]",
+          liveUrl: "[YOUR LIVE DEMO / POWER BI URL]"
+        },
+        {
+          id: "customer-churn-analysis",
+          title: "Customer Churn Analysis",
+          category: "Python",
+          tools: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
+          summary: "Analyzed customer transaction and engagement data to identify churn patterns, customer behavioral segments, and key risk factors affecting retention.",
+          insights: [
+            "Discovered customers with month-to-month contracts had a 3.2x higher churn rate",
+            "Identified key tenure inflection point at month 6 with highest churn probability",
+            "Segmented customer cohorts based on support ticket frequency and payment method",
+            "Formulated data-driven retention roadmap estimated to reduce churn by [Add your real result]"
+          ],
+          metrics: [
+            { label: "Customer Sample", value: "7,043 Rows" },
+            { label: "Identified Risk Cohort", value: "28.5%" },
+            { label: "Key Churn Trigger", value: "Tenure < 6 Mo" },
+            { label: "Feature Correl.", value: "0.42 Contract Type" }
+          ],
+          caseStudy: {
+            problem: "Subscription business experienced an increasing churn rate with no clear visibility into which customer segments were leaving or which service friction points drove cancellations.",
+            data: "Dataset of 7,000+ customer accounts including demographic attributes, service subscriptions, monthly charges, total spend, contract tenure, and churn status.",
+            analysis: "Cleaned raw records using Pandas, imputed missing total charges, normalized continuous variables, and performed bivariate exploratory analysis with Seaborn correlation heatmaps.",
+            insights: "Month-to-month contract holders exhibited 42% churn versus 11% for 1-year and 3% for 2-year contracts. High electronic check users had significantly elevated churn rates compared to automated credit card billing.",
+            recommendation: "Introduce incentivized onboarding discounts for 12-month contract commitments, offer proactive support outreach after 2 customer tickets, and streamline automated payment methods.",
+            result: "Provided leadership with a prioritized risk matrix and actionable retention playbook to protect annual recurring revenue [Add your real result].",
+            challenges: "Handling class imbalance in churn labels and engineering meaningful tenure binning features to isolate early-stage customer friction."
+          },
+          githubUrl: "[YOUR GITHUB URL]",
+          liveUrl: "[YOUR LIVE DEMO / NOTEBOOK URL]"
+        },
+        {
+          id: "ecommerce-sales-analysis",
+          title: "E-Commerce Sales & Profit Analysis",
+          category: "Python",
+          tools: ["Python", "Excel", "Power BI", "Pandas", "Plotly"],
+          summary: "Analyzed e-commerce transaction data to understand sales trends, product category performance, customer purchase patterns, and margin optimization opportunities.",
+          insights: [
+            "Evaluated 50,000+ order lines across multiple product categories and sub-categories",
+            "Identified top 20% products generating 76% of cumulative operating profit (Pareto principle)",
+            "Uncovered shipping delay correlations with return rates across express vs standard logistics",
+            "Built automated profit margin matrix highlighting loss-making SKU variants"
+          ],
+          metrics: [
+            { label: "Orders Analyzed", value: "50,000+" },
+            { label: "Pareto Ratio", value: "80 / 20" },
+            { label: "Top Category", value: "Tech & Office" },
+            { label: "Profit Insight", value: "[Add your result]" }
+          ],
+          caseStudy: {
+            problem: "An e-commerce retailer faced rising logistics costs and stagnant net margins despite overall revenue growth, requiring granular profitability analysis by SKU and region.",
+            data: "Transactional database of 50,000+ orders comprising order dates, ship modes, discount rates, product taxonomy, sales revenue, and profit margins.",
+            analysis: "Conducted exploratory analysis in Python, calculated product-level unit economics, generated dynamic discount sensitivity matrices, and integrated findings into a Power BI summary report.",
+            insights: "Certain office furniture sub-categories had high return rates (14%) combined with steep shipping subsidies, dragging net margins negative in specific regional zip codes.",
+            recommendation: "Eliminate deep discounts (>25%) on heavy freight SKUs, renegotiate regional shipping tier contracts, and bundle high-margin accessories with top-selling electronics.",
+            result: "Identified unprofitable product lines and presented optimization recommendations to improve bottom-line margin by [Add your real result].",
+            challenges: "Reconciling multi-currency transactions and dealing with sparse product categorization data through automated regex mapping."
+          },
+          githubUrl: "[YOUR GITHUB URL]",
+          liveUrl: "[YOUR LIVE DEMO / DASHBOARD URL]"
+        },
+        {
+          id: "hr-analytics-dashboard",
+          title: "HR Analytics & Workforce Dashboard",
+          category: "Power BI",
+          tools: ["Power BI", "Excel", "DAX", "Data Modeling"],
+          summary: "Built an HR dashboard to analyze employee attrition, department performance, salary trends, workforce demographics, and job satisfaction indicators.",
+          insights: [
+            "Visualized attrition trends across 1,400+ employees segmented by role, department, and tenure",
+            "Identified highest turnover in entry-level sales roles with overtime exceeding 15 hrs/week",
+            "Mapped salary parity distributions across departments to ensure competitive compensation",
+            "Provided HR leadership with interactive workforce planning & retention simulator"
+          ],
+          metrics: [
+            { label: "Workforce Size", value: "1,470 Staff" },
+            { label: "Baseline Attrition", value: "16.1%" },
+            { label: "Key Factor", value: "Work-Life Balance" },
+            { label: "Dept Breakdown", value: "6 Depts" }
+          ],
+          caseStudy: {
+            problem: "Human Resources executives experienced unexpected employee turnover in critical business units without data-backed understanding of root causes or predictive warning signs.",
+            data: "Anonymized employee demographic and performance survey records including age, tenure, job level, salary band, distance from home, satisfaction scores, and exit status.",
+            analysis: "Built clean data pipelines in Excel & Power BI, created custom DAX KPIs for Attrition Rate, Average Tenure, and Compensation Index, and designed intuitive visual cards.",
+            insights: "Employees rating work-life balance as 'Low' who regularly logged overtime were 3.8x more likely to leave within 18 months. Retention stabilized significantly past the 3-year milestone.",
+            recommendation: "Institute workload balancing protocols for high-overtime departments, introduce structured 1-on-1 mentorship during the first 12 months, and adjust compensation bands for lagging roles.",
+            result: "Delivered an interactive HR monitoring tool enabling proactive retention interventions for at-risk departments [Add your real result].",
+            challenges: "Normalizing subjective survey rating scales and presenting sensitive workforce metrics in a clear, executive-friendly visualization framework."
+          },
+          githubUrl: "[YOUR GITHUB URL]",
+          liveUrl: "[YOUR LIVE DEMO / POWER BI URL]"
+        }
+      ],
+      journey: [
+        {
+          type: "experience",
+          period: "[YEAR–YEAR]",
+          role: "Data Analyst Intern / Freelance Data Analyst",
+          organization: "[Company / Organization / Freelance Client Name]",
+          location: "[Location / Remote]",
+          highlights: [
+            "Cleaned and transformed complex datasets using Python (Pandas) and Excel Power Query.",
+            "Built interactive Power BI dashboards tracking core operational and commercial KPIs.",
+            "Synthesized findings into executive slide decks with data-driven strategic recommendations."
+          ],
+          skills: ["Python", "Power BI", "Excel", "Data Cleaning", "Data Storytelling"]
+        },
+        {
+          type: "education",
+          period: "[YEAR–YEAR]",
+          role: "[Your Degree Name e.g. B.S. in Computer Science / Statistics / Business]",
+          organization: "[College or University Name]",
+          location: "[City, Country]",
+          highlights: [
+            "Focused coursework in Statistical Analysis, Database Management, and Quantitative Methods.",
+            "Led academic data analysis projects utilizing Python, statistical modeling, and data visualization.",
+            "Participated in data hackathons and analytical problem-solving competitions."
+          ],
+          skills: ["Statistics", "Data Structures", "Analytical Research", "Mathematics"]
+        },
+        {
+          type: "certification",
+          period: "[YEAR]",
+          role: "Python for Data Analysis & Visualization",
+          organization: "[Certifying Platform / Academy e.g. Coursera / DataCamp]",
+          location: "Online Verified",
+          highlights: [
+            "Mastered data manipulation with Pandas & NumPy, data exploration, and visualization libraries.",
+            "Completed hands-on capstone project analyzing real-world customer and financial datasets."
+          ],
+          skills: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn"]
+        },
+        {
+          type: "certification",
+          period: "[YEAR]",
+          role: "Microsoft Power BI Data Analyst",
+          organization: "[Certifying Organization e.g. Microsoft / Coursera]",
+          location: "Online Verified",
+          highlights: [
+            "Mastered Star Schema data modeling, advanced DAX expressions, and interactive report development.",
+            "Implemented row-level security, scheduled refreshes, and enterprise dashboard distribution."
+          ],
+          skills: ["Power BI", "DAX", "Data Modeling", "Power Query"]
+        }
+      ],
+      certifications: [
+        {
+          title: "Python for Data Analysis",
+          issuer: "Coursera / DataCamp / Udemy",
+          date: "[YEAR / Completed]",
+          credentialId: "[CREDENTIAL ID OR LINK]",
+          badgeText: "Verified Skill",
+          description: "Data manipulation, NumPy arrays, Pandas DataFrames, and exploratory data analysis."
+        },
+        {
+          title: "Power BI Data Analyst",
+          issuer: "Microsoft / Coursera",
+          date: "[YEAR / Completed]",
+          credentialId: "[CREDENTIAL ID OR LINK]",
+          badgeText: "Professional Certificate",
+          description: "DAX calculations, Star Schema modeling, interactive reporting, and KPI monitoring."
+        },
+        {
+          title: "Microsoft Excel for Data Analysis",
+          issuer: "Coursera / Macquarie University",
+          date: "[YEAR / Completed]",
+          credentialId: "[CREDENTIAL ID OR LINK]",
+          badgeText: "Specialization",
+          description: "Advanced formulas, PivotTables, Power Query data transformation, and business modeling."
+        },
+        {
+          title: "Data Analytics Fundamentals",
+          issuer: "Google / IBM / Meta",
+          date: "[YEAR / Completed]",
+          credentialId: "[CREDENTIAL ID OR LINK]",
+          badgeText: "Foundational",
+          description: "Data lifecycle, statistical thinking, problem framing, and executive communication."
+        },
+        {
+          title: "HTML5 & CSS3 Web Fundamentals",
+          issuer: "freeCodeCamp / Coursera",
+          date: "[YEAR / Completed]",
+          credentialId: "[CREDENTIAL ID OR LINK]",
+          badgeText: "Web Tech",
+          description: "Semantic HTML structure, modern CSS layouts, responsive design, and UI styling."
+        }
+      ]
+    };
+
+    // --- SUB-COMPONENTS ---
+
+    function InteractiveWidget() {
+      const [tab, setTab] = useState('revenue');
+      const revenueData = [
+        { month: 'Jan', val: 65, profit: 24 },
+        { month: 'Feb', val: 78, profit: 32 },
+        { month: 'Mar', val: 72, profit: 28 },
+        { month: 'Apr', val: 94, profit: 41 },
+        { month: 'May', val: 86, profit: 38 },
+        { month: 'Jun', val: 110, profit: 52 },
+        { month: 'Jul', val: 128, profit: 64 }
+      ];
+
+      return (
+        <div className="relative w-full max-w-lg mx-auto lg:max-w-none">
+          <div className="absolute -top-10 -right-10 w-72 h-72 rounded-full bg-gradient-to-br from-purple-600/30 via-indigo-600/20 to-blue-500/30 blur-3xl pointer-events-none animate-pulse-slow"></div>
+          <div className="relative rounded-2xl border border-white/10 bg-slate-900/85 backdrop-blur-xl shadow-2xl p-5 hover:border-purple-500/40 transition-all">
+            <div className="flex items-center justify-between pb-4 border-b border-white/10">
+              <div className="flex items-center space-x-2">
+                <span className="w-3 h-3 rounded-full bg-red-500/80"></span>
+                <span className="w-3 h-3 rounded-full bg-yellow-500/80"></span>
+                <span className="w-3 h-3 rounded-full bg-green-500/80"></span>
+                <span className="ml-2 text-xs font-mono text-slate-400 font-medium">analytics_engine.py</span>
+              </div>
+              <div className="flex bg-slate-950/70 p-0.5 rounded-lg border border-white/5 text-xs">
+                <button
+                  onClick={() => setTab('revenue')}
+                  className={`px-2.5 py-1 rounded-md transition-all font-medium ${tab === 'revenue' ? 'bg-purple-600 text-white shadow' : 'text-slate-400 hover:text-white'}`}
+                >
+                  📊 KPIs
+                </button>
+                <button
+                  onClick={() => setTab('churn')}
+                  className={`px-2.5 py-1 rounded-md transition-all font-medium ${tab === 'churn' ? 'bg-purple-600 text-white shadow' : 'text-slate-400 hover:text-white'}`}
+                >
+                  🎯 Churn
+                </button>
+                <button
+                  onClick={() => setTab('code')}
+                  className={`px-2.5 py-1 rounded-md transition-all font-medium ${tab === 'code' ? 'bg-purple-600 text-white shadow' : 'text-slate-400 hover:text-white'}`}
+                >
+                  🐍 Code
+                </button>
+              </div>
+            </div>
+
+            {tab === 'revenue' && (
+              <div className="mt-4 space-y-4">
+                <div className="grid grid-cols-3 gap-3">
+                  <div className="bg-slate-950/50 border border-white/5 rounded-xl p-3">
+                    <span className="text-[11px] uppercase tracking-wider text-slate-400 block font-medium">Revenue</span>
+                    <span className="text-lg font-bold text-white tracking-tight">$1.42M</span>
+                    <span className="text-[10px] text-emerald-400 font-semibold flex items-center mt-0.5">▲ +18.4% YoY</span>
+                  </div>
+                  <div className="bg-slate-950/50 border border-white/5 rounded-xl p-3">
+                    <span className="text-[11px] uppercase tracking-wider text-slate-400 block font-medium">Avg Order</span>
+                    <span className="text-lg font-bold text-white tracking-tight">$148.50</span>
+                    <span className="text-[10px] text-emerald-400 font-semibold flex items-center mt-0.5">▲ +6.2% MoM</span>
+                  </div>
+                  <div className="bg-slate-950/50 border border-white/5 rounded-xl p-3">
+                    <span className="text-[11px] uppercase tracking-wider text-slate-400 block font-medium">Confidence</span>
+                    <span className="text-lg font-bold text-cyan-400 tracking-tight">98.6%</span>
+                    <span className="text-[10px] text-purple-300 font-semibold flex items-center mt-0.5">Validated</span>
+                  </div>
+                </div>
+
+                <div className="bg-slate-950/60 border border-white/5 rounded-xl p-4">
+                  <div className="flex items-center justify-between mb-2">
+                    <span className="text-xs font-semibold text-slate-200">Monthly Revenue & Net Profit ($K)</span>
+                    <span className="text-[10px] font-mono text-purple-400 bg-purple-500/10 px-2 py-0.5 rounded border border-purple-500/20">
+                      Power BI Linked
+                    </span>
+                  </div>
+
+                  <div className="h-32 w-full relative flex items-end justify-between pt-4 px-2">
+                    {revenueData.map((item, idx) => {
+                      const barHeight = (item.val / 130) * 100;
+                      const profitHeight = (item.profit / 130) * 100;
+                      return (
+                        <div key={idx} className="flex flex-col items-center group relative w-8">
+                          <div className="absolute -top-9 opacity-0 group-hover:opacity-100 transition-opacity bg-slate-800 text-white text-[10px] py-1 px-2 rounded shadow-lg pointer-events-none border border-white/10 z-10 whitespace-nowrap">
+                            Rev: ${item.val}K | Profit: ${item.profit}K
+                          </div>
+                          <div className="w-full flex items-end justify-center space-x-1 h-24">
+                            <div style={{ height: `${barHeight}%` }} className="w-3 rounded-t-sm bg-gradient-to-t from-indigo-600 to-purple-400 group-hover:from-indigo-500 group-hover:to-cyan-400 transition-all duration-300"></div>
+                            <div style={{ height: `${profitHeight}%` }} className="w-3 rounded-t-sm bg-gradient-to-t from-cyan-600 to-emerald-400 group-hover:from-cyan-400 group-hover:to-teal-300 transition-all duration-300"></div>
+                          </div>
+                          <span className="text-[10px] text-slate-400 mt-1 font-mono">{item.month}</span>
+                        </div>
+                      );
+                    })}
+                  </div>
+
+                  <div className="flex items-center justify-center space-x-4 pt-2 text-[11px] text-slate-400">
+                    <span className="flex items-center"><span className="w-2.5 h-2.5 rounded-sm bg-purple-500 mr-1.5 inline-block"></span> Gross Revenue</span>
+                    <span className="flex items-center"><span className="w-2.5 h-2.5 rounded-sm bg-emerald-400 mr-1.5 inline-block"></span> Net Profit</span>
+                  </div>
+                </div>
+              </div>
+            )}
+
+            {tab === 'churn' && (
+              <div className="mt-4 space-y-4">
+                <div className="bg-slate-950/60 border border-white/5 rounded-xl p-4">
+                  <div className="flex items-center justify-between mb-3">
+                    <span className="text-xs font-semibold text-slate-200">Contract Risk Segmentation</span>
+                    <span className="text-[10px] font-mono text-red-400 bg-red-500/10 px-2 py-0.5 rounded border border-red-500/20">High Impact</span>
+                  </div>
+                  <div className="space-y-3">
+                    <div className="space-y-1">
+                      <div className="flex justify-between text-xs"><span className="text-slate-300">Month-to-Month</span><span className="text-slate-200 font-mono">42% Churn</span></div>
+                      <div className="w-full bg-slate-800 rounded-full h-2 overflow-hidden"><div className="h-full bg-red-500 rounded-full" style={{ width: '84%' }}></div></div>
+                    </div>
+                    <div className="space-y-1">
+                      <div className="flex justify-between text-xs"><span className="text-slate-300">One-Year Plan</span><span className="text-slate-200 font-mono">11% Churn</span></div>
+                      <div className="w-full bg-slate-800 rounded-full h-2 overflow-hidden"><div className="h-full bg-amber-500 rounded-full" style={{ width: '22%' }}></div></div>
+                    </div>
+                    <div className="space-y-1">
+                      <div className="flex justify-between text-xs"><span className="text-slate-300">Two-Year Plan</span><span className="text-slate-200 font-mono">3% Churn</span></div>
+                      <div className="w-full bg-slate-800 rounded-full h-2 overflow-hidden"><div className="h-full bg-emerald-500 rounded-full" style={{ width: '6%' }}></div></div>
+                    </div>
+                  </div>
+                  <p className="text-[11px] text-slate-400 mt-3 pt-2 border-t border-white/5">
+                    💡 <strong>Key Finding:</strong> Month-to-month contracts account for 78% of all churned subscribers.
+                  </p>
+                </div>
+              </div>
+            )}
+
+            {tab === 'code' && (
+              <div className="mt-4">
+                <div className="code-box p-3 text-xs leading-relaxed overflow-x-auto font-mono text-slate-300">
+                  <p><span className="code-keyword">import</span> pandas <span className="code-keyword">as</span> pd</p>
+                  <p><span className="code-keyword">import</span> numpy <span className="code-keyword">as</span> np</p>
+                  <p className="mt-1"><span className="code-comment"># Ingest and clean transaction data</span></p>
+                  <p>df = pd.<span className="code-function">read_csv</span>(<span className="code-string">'sales_data.csv'</span>)</p>
+                  <p>df[<span className="code-string">'order_date'</span>] = pd.<span className="code-function">to_datetime</span>(df[<span className="code-string">'order_date'</span>])</p>
+                  <p>df[<span className="code-string">'profit_margin'</span>] = df[<span className="code-string">'profit'</span>] / df[<span className="code-string">'sales'</span>]</p>
+                  <p className="mt-1"><span className="code-comment"># Aggregate by category and evaluate KPIs</span></p>
+                  <p>kpis = df.<span className="code-function">groupby</span>(<span className="code-string">'category'</span>).<span className="code-function">agg</span>(&#123;</p>
+                  <p className="pl-4"><span className="code-string">'sales'</span>: <span className="code-string">'sum'</span>,</p>
+                  <p className="pl-4"><span className="code-string">'profit_margin'</span>: <span className="code-string">'mean'</span></p>
+                  <p>&#125;)</p>
+                  <p className="mt-1 text-emerald-400 font-semibold">✓ Pipeline executed in 0.42s [125K rows]</p>
+                </div>
+              </div>
+            )}
+
+            <div className="mt-4 pt-3 border-t border-white/10 flex items-center justify-between text-[11px] text-slate-400 font-mono">
+              <div className="flex items-center space-x-2">
+                <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+                <span>Data Stream: Active</span>
+              </div>
+              <span>Python 3.14 • Power BI • DAX</span>
+            </div>
+          </div>
+
+          <div className="hidden sm:flex absolute -bottom-5 -left-6 bg-slate-900/90 border border-purple-500/30 rounded-xl p-3 shadow-xl backdrop-blur-md items-center space-x-3 animate-float">
+            <div className="w-9 h-9 rounded-lg bg-gradient-to-tr from-purple-600 to-indigo-500 flex items-center justify-center text-white font-bold text-sm">DAX</div>
+            <div>
+              <div className="text-[11px] text-slate-400 font-medium">Model Status</div>
+              <div className="text-xs font-bold text-white">Star Schema Ready</div>
+            </div>
+          </div>
+          <div className="hidden sm:flex absolute -top-5 -right-6 bg-slate-900/90 border border-cyan-500/30 rounded-xl p-3 shadow-xl backdrop-blur-md items-center space-x-3 animate-float-delayed">
+            <div className="w-9 h-9 rounded-lg bg-gradient-to-tr from-cyan-500 to-blue-600 flex items-center justify-center text-white font-bold text-sm">EDA</div>
+            <div>
+              <div className="text-[11px] text-slate-400 font-medium">Outlier Detection</div>
+              <div className="text-xs font-bold text-cyan-400">99.4% Accurate</div>
+            </div>
+          </div>
+        </div>
+      );
+    }
+
+    function CaseStudyModal({ project, onClose }) {
+      if (!project) return null;
+      const { caseStudy } = project;
+
+      useEffect(() => {
+        const handleKey = (e) => { if (e.key === 'Escape') onClose(); };
+        document.body.style.overflow = 'hidden';
+        window.addEventListener('keydown', handleKey);
+        return () => {
+          document.body.style.overflow = 'unset';
+          window.removeEventListener('keydown', handleKey);
+        };
+      }, [onClose]);
+
+      return (
+        <div
+          className="fixed inset-0 z-50 overflow-y-auto bg-slate-950/85 backdrop-blur-md flex items-center justify-center p-4 sm:p-6 lg:p-8"
+          onClick={onClose}
+        >
+          <div
+            className="relative w-full max-w-4xl bg-slate-900 border border-purple-500/30 rounded-2xl shadow-2xl overflow-hidden text-left my-8"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="bg-slate-950/90 p-6 border-b border-white/10 flex items-start justify-between">
+              <div>
+                <div className="flex flex-wrap items-center gap-2 mb-2">
+                  <span className="px-3 py-1 rounded-full text-xs font-bold uppercase bg-purple-500/20 text-purple-300 border border-purple-500/30 font-mono">
+                    {project.category} Case Study
+                  </span>
+                  {project.tools.map((t, i) => (
+                    <span key={i} className="px-2.5 py-0.5 rounded-md text-xs font-mono bg-slate-800 text-slate-300 border border-white/5">
+                      {t}
+                    </span>
+                  ))}
+                </div>
+                <h3 className="text-2xl sm:text-3xl font-extrabold text-white">{project.title}</h3>
+              </div>
+              <button
+                onClick={onClose}
+                className="p-2 rounded-xl bg-slate-800 text-slate-400 hover:text-white hover:bg-slate-700"
+              >
+                ✕
+              </button>
+            </div>
+
+            <div className="p-6 sm:p-8 space-y-6 max-h-[75vh] overflow-y-auto">
+              {project.metrics && (
+                <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 bg-slate-950/60 p-4 rounded-xl border border-white/5">
+                  {project.metrics.map((m, idx) => (
+                    <div key={idx} className="text-center">
+                      <div className="text-[11px] text-slate-400 font-mono uppercase">{m.label}</div>
+                      <div className="text-lg font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-cyan-300 font-mono mt-0.5">
+                        {m.value}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              )}
+
+              <div className="p-5 rounded-xl bg-slate-950/50 border-l-4 border-purple-500 border border-white/5">
+                <div className="text-purple-400 font-bold text-sm uppercase tracking-wider mb-2 font-mono">
+                  🎯 1. Business Problem & Objective
+                </div>
+                <p className="text-sm text-slate-200 leading-relaxed">{caseStudy.problem}</p>
+              </div>
+
+              <div className="p-5 rounded-xl bg-slate-950/50 border-l-4 border-indigo-500 border border-white/5">
+                <div className="text-indigo-400 font-bold text-sm uppercase tracking-wider mb-2 font-mono">
+                  📁 2. Dataset & Features
+                </div>
+                <p className="text-sm text-slate-200 leading-relaxed">{caseStudy.data}</p>
+              </div>
+
+              <div className="p-5 rounded-xl bg-slate-950/50 border-l-4 border-blue-500 border border-white/5">
+                <div className="text-blue-400 font-bold text-sm uppercase tracking-wider mb-2 font-mono">
+                  ⚙️ 3. Data Cleaning & Analysis Methodology
+                </div>
+                <p className="text-sm text-slate-200 leading-relaxed">{caseStudy.analysis}</p>
+              </div>
+
+              <div className="p-5 rounded-xl bg-slate-950/50 border-l-4 border-cyan-500 border border-white/5">
+                <div className="text-cyan-400 font-bold text-sm uppercase tracking-wider mb-2 font-mono">
+                  💡 4. Discovered Insights & Trends
+                </div>
+                <p className="text-sm text-slate-200 leading-relaxed mb-3">{caseStudy.insights}</p>
+                <ul className="space-y-1.5 pl-2">
+                  {project.insights.map((insight, idx) => (
+                    <li key={idx} className="text-xs text-slate-300 flex items-start space-x-2">
+                      <span className="text-cyan-400 font-bold">✓</span>
+                      <span>{insight}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              <div className="p-5 rounded-xl bg-slate-950/50 border-l-4 border-amber-500 border border-white/5">
+                <div className="text-amber-400 font-bold text-sm uppercase tracking-wider mb-2 font-mono">
+                  🚀 5. Actionable Recommendations
+                </div>
+                <p className="text-sm text-slate-200 leading-relaxed">{caseStudy.recommendation}</p>
+              </div>
+
+              <div className="p-5 rounded-xl bg-emerald-950/20 border-l-4 border-emerald-500 border border-emerald-500/20">
+                <div className="text-emerald-400 font-bold text-sm uppercase tracking-wider mb-2 font-mono">
+                  📈 6. Business Result & Deliverable
+                </div>
+                <p className="text-sm text-slate-200 leading-relaxed">{caseStudy.result}</p>
+              </div>
+
+              {caseStudy.challenges && (
+                <div className="p-5 rounded-xl bg-slate-950/50 border border-white/10">
+                  <div className="text-slate-300 font-bold text-sm uppercase tracking-wider mb-2 font-mono">
+                    ⚡ Challenges Encountered & Technical Solutions
+                  </div>
+                  <p className="text-xs text-slate-400 leading-relaxed">{caseStudy.challenges}</p>
+                </div>
+              )}
+            </div>
+
+            <div className="bg-slate-950/90 p-5 border-t border-white/10 flex flex-wrap items-center justify-between gap-4">
+              <div className="flex items-center space-x-3">
+                <a
+                  href={project.liveUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-5 py-2.5 rounded-xl font-semibold text-xs sm:text-sm bg-gradient-to-r from-purple-600 to-indigo-600 text-white shadow-lg shadow-purple-600/30"
+                >
+                  View Dashboard / Project ↗
+                </a>
+                <a
+                  href={project.githubUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-4 py-2.5 rounded-xl font-semibold text-xs sm:text-sm bg-slate-800 text-slate-200 hover:text-white"
+                >
+                  GitHub Repository
+                </a>
+              </div>
+              <button onClick={onClose} className="px-4 py-2 rounded-xl text-xs font-semibold text-slate-400 hover:text-white">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      );
+    }
+
+    // --- MAIN PORTFOLIO ROOT APPLICATION ---
+    function PortfolioApp() {
+      const [theme, setTheme] = useState('dark');
+      const [activeSection, setActiveSection] = useState('home');
+      const [isScrolled, setIsScrolled] = useState(false);
+      const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+      const [selectedSkillCategory, setSelectedSkillCategory] = useState('all');
+      const [selectedProjectCategory, setSelectedProjectCategory] = useState('All');
+      const [activeModalProject, setActiveModalProject] = useState(null);
+
+      // Subtitle Typewriter Effect
+      const [roleIdx, setRoleIdx] = useState(0);
+      const [typedText, setTypedText] = useState('');
+      const [isDeleting, setIsDeleting] = useState(false);
+
+      // Contact Form State
+      const [formData, setFormData] = useState({ name: '', email: '', subject: '', message: '' });
+      const [formErrors, setFormErrors] = useState({});
+      const [isSubmitting, setIsSubmitting] = useState(false);
+      const [submitSuccess, setSubmitSuccess] = useState(false);
+
+      const { personal, stats, animatedRoles, aboutCards, approachSteps, skillCategories, skills, services, projects, journey, certifications } = portfolioData;
+
+      // Scroll listener
+      useEffect(() => {
+        const handleScroll = () => {
+          setIsScrolled(window.scrollY > 20);
+        };
+        window.addEventListener('scroll', handleScroll, { passive: true });
+        return () => window.removeEventListener('scroll', handleScroll);
+      }, []);
+
+      // Typewriter
+      useEffect(() => {
+        const current = animatedRoles[roleIdx];
+        const timer = setTimeout(() => {
+          if (!isDeleting) {
+            setTypedText(current.substring(0, typedText.length + 1));
+            if (typedText === current) {
+              setTimeout(() => setIsDeleting(true), 1800);
+            }
+          } else {
+            setTypedText(current.substring(0, typedText.length - 1));
+            if (typedText === '') {
+              setIsDeleting(false);
+              setRoleIdx((prev) => (prev + 1) % animatedRoles.length);
+            }
+          }
+        }, isDeleting ? 40 : 80);
+        return () => clearTimeout(timer);
+      }, [typedText, isDeleting, roleIdx, animatedRoles]);
+
+      const toggleTheme = () => {
+        const nextTheme = theme === 'dark' ? 'light' : 'dark';
+        setTheme(nextTheme);
+        if (nextTheme === 'light') {
+          document.documentElement.classList.add('light');
+        } else {
+          document.documentElement.classList.remove('light');
+        }
+      };
+
+      const handleContactSubmit = (e) => {
+        e.preventDefault();
+        const errs = {};
+        if (!formData.name.trim()) errs.name = 'Please enter your name.';
+        if (!formData.email.trim() || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
+          errs.email = 'Please provide a valid email address.';
+        }
+        if (!formData.subject.trim()) errs.subject = 'Please provide a subject.';
+        if (!formData.message.trim() || formData.message.trim().length < 10) {
+          errs.message = 'Please enter at least 10 characters.';
+        }
+
+        if (Object.keys(errs).length > 0) {
+          setFormErrors(errs);
+          return;
+        }
+
+        setFormErrors({});
+        setIsSubmitting(true);
+        setTimeout(() => {
+          setIsSubmitting(false);
+          setSubmitSuccess(true);
+          setFormData({ name: '', email: '', subject: '', message: '' });
+          setTimeout(() => setSubmitSuccess(false), 7000);
+        }, 1200);
+      };
+
+      const filteredSkills = selectedSkillCategory === 'all'
+        ? skills
+        : skills.filter(s => s.category === selectedSkillCategory);
+
+      const filteredProjects = selectedProjectCategory === 'All'
+        ? projects
+        : projects.filter(p => p.category === selectedProjectCategory);
+
+      return (
+        <div className={`min-h-screen ${theme === 'light' ? 'light bg-slate-100 text-slate-900' : 'bg-[#070B14] text-slate-100'}`}>
+          <div className="fixed inset-0 bg-grid-pattern pointer-events-none opacity-40 z-0"></div>
+
+          {/* 1. STICKY NAVBAR */}
+          <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'glass-nav py-3.5 shadow-lg shadow-black/20' : 'bg-transparent py-5'}`}>
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
+              <a href="#home" className="flex items-center space-x-3 group">
+                <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-purple-600 via-indigo-600 to-cyan-400 p-[1.5px] shadow-lg shadow-purple-500/25 group-hover:scale-105 transition-transform">
+                  <div className="w-full h-full bg-slate-950 rounded-[10px] flex items-center justify-center font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-cyan-300 text-sm tracking-wider">
+                    {personal.initials || 'DA'}
+                  </div>
+                </div>
+                <div className="flex flex-col">
+                  <span className="text-base font-bold text-white group-hover:text-purple-300 transition-colors">
+                    {personal.name}
+                  </span>
+                  <span className="text-[11px] font-mono text-slate-400 tracking-wider">
+                    DATA ANALYST
+                  </span>
+                </div>
+              </a>
+
+              <nav className="hidden lg:flex items-center space-x-1 bg-slate-900/60 border border-white/10 px-4 py-1.5 rounded-full backdrop-blur-md">
+                {['Home', 'About', 'Skills', 'Services', 'Projects', 'Experience', 'Contact'].map((item) => (
+                  <a
+                    key={item}
+                    href={`#${item.toLowerCase()}`}
+                    className="px-3.5 py-1.5 rounded-full text-sm font-medium text-slate-300 hover:text-white hover:bg-white/5 transition-all"
+                  >
+                    {item}
+                  </a>
+                ))}
+              </nav>
+
+              <div className="hidden sm:flex items-center space-x-3">
+                <button
+                  onClick={toggleTheme}
+                  aria-label="Toggle theme"
+                  className="p-2.5 rounded-xl border border-white/10 bg-slate-900/60 text-slate-300 hover:text-white transition-all"
+                  title="Toggle Theme"
+                >
+                  {theme === 'dark' ? '☀️' : '🌙'}
+                </button>
+                <a
+                  href={personal.resumeUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-4 py-2 rounded-xl text-sm font-semibold bg-gradient-to-r from-purple-600 via-indigo-600 to-blue-600 text-white shadow-lg shadow-purple-600/25 hover:scale-[1.02] transition-all"
+                >
+                  Download Resume
+                </a>
+              </div>
+
+              <div className="flex sm:hidden items-center space-x-2">
+                <button onClick={toggleTheme} className="p-2 rounded-lg border border-white/10 bg-slate-900/60">
+                  {theme === 'dark' ? '☀️' : '🌙'}
+                </button>
+                <button
+                  onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+                  className="p-2 rounded-xl border border-white/10 bg-slate-900 text-slate-300"
+                >
+                  {mobileMenuOpen ? '✕' : '☰'}
+                </button>
+              </div>
+            </div>
+
+            {mobileMenuOpen && (
+              <div className="lg:hidden fixed inset-x-0 top-[65px] bg-slate-950/95 backdrop-blur-2xl border-b border-white/10 p-6 shadow-2xl">
+                <nav className="flex flex-col space-y-3">
+                  {['Home', 'About', 'Skills', 'Services', 'Projects', 'Experience', 'Contact'].map((item) => (
+                    <a
+                      key={item}
+                      href={`#${item.toLowerCase()}`}
+                      onClick={() => setMobileMenuOpen(false)}
+                      className="px-4 py-2 rounded-xl text-sm font-medium text-slate-300 hover:text-white hover:bg-purple-600/20"
+                    >
+                      {item}
+                    </a>
+                  ))}
+                  <div className="pt-3 border-t border-white/10">
+                    <a
+                      href={personal.resumeUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block text-center py-2.5 rounded-xl font-semibold bg-gradient-to-r from-purple-600 to-indigo-600 text-white text-sm"
+                    >
+                      Download Resume
+                    </a>
+                  </div>
+                </nav>
+              </div>
+            )}
+          </header>
+
+          {/* 2. HERO SECTION */}
+          <section id="home" className="relative min-h-screen pt-28 pb-16 lg:pt-36 lg:pb-24 flex flex-col justify-center overflow-hidden">
+            <div className="orb-glow w-96 h-96 bg-purple-600/20 top-1/4 -left-20"></div>
+            <div className="orb-glow w-[32rem] h-[32rem] bg-indigo-600/15 top-1/3 right-0"></div>
+
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
+              <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+                
+                <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
+                  <div className="inline-flex flex-wrap items-center justify-center lg:justify-start gap-2.5">
+                    <span className="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full text-xs font-semibold bg-purple-500/10 text-purple-300 border border-purple-500/30">
+                      <span>👋</span>
+                      <span>Hello, I am</span>
+                    </span>
+                    <span className="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full text-xs font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">
+                      <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                      <span>{personal.status} • {personal.availability}</span>
+                    </span>
+                  </div>
+
+                  <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight">
+                    <span className="block">{personal.name}</span>
+                    <span className="text-gradient block mt-1">Data Analyst</span>
+                  </h1>
+
+                  <div className="h-10 flex items-center justify-center lg:justify-start">
+                    <span className="text-lg sm:text-xl md:text-2xl font-mono text-cyan-400 font-medium">
+                      &gt; {typedText}
+                      <span className="inline-block w-2 h-5 bg-cyan-400 ml-1 animate-pulse"></span>
+                    </span>
+                  </div>
+
+                  <p className="text-base sm:text-lg text-slate-300 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+                    {personal.bioShort}
+                  </p>
+
+                  <div className="flex flex-wrap items-center justify-center lg:justify-start gap-4 pt-2">
+                    <a
+                      href="#projects"
+                      className="px-6 py-3.5 rounded-xl font-semibold text-sm sm:text-base text-white bg-gradient-to-r from-purple-600 via-indigo-600 to-blue-600 shadow-xl shadow-purple-600/30 hover:scale-[1.02] transition-all"
+                    >
+                      View My Projects ↗
+                    </a>
+                    <a
+                      href="#contact"
+                      className="px-6 py-3.5 rounded-xl font-semibold text-sm sm:text-base text-slate-200 bg-slate-900/80 hover:bg-slate-800 border border-white/10 transition-all"
+                    >
+                      Contact Me ✉️
+                    </a>
+                    <a
+                      href={personal.resumeUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="px-5 py-3.5 rounded-xl font-semibold text-sm sm:text-base text-slate-300 hover:text-white border border-white/10"
+                    >
+                      Download Resume ↓
+                    </a>
+                  </div>
+
+                  <div className="pt-3 flex items-center justify-center lg:justify-start flex-wrap gap-2 text-xs font-mono text-slate-400">
+                    <span className="text-slate-500">Core Stack:</span>
+                    <span className="px-2.5 py-1 rounded-md bg-slate-900 border border-white/5 text-purple-300">Python</span>
+                    <span className="px-2.5 py-1 rounded-md bg-slate-900 border border-white/5 text-blue-300">Pandas</span>
+                    <span className="px-2.5 py-1 rounded-md bg-slate-900 border border-white/5 text-indigo-300">NumPy</span>
+                    <span className="px-2.5 py-1 rounded-md bg-slate-900 border border-white/5 text-emerald-300">Excel</span>
+                    <span className="px-2.5 py-1 rounded-md bg-slate-900 border border-white/5 text-amber-300">Power BI</span>
+                    <span className="px-2.5 py-1 rounded-md bg-slate-900 border border-white/5 text-cyan-300">SQL</span>
+                  </div>
+                </div>
+
+                <div className="lg:col-span-5 flex justify-center">
+                  <InteractiveWidget />
+                </div>
+              </div>
+
+              <div className="mt-16 sm:mt-20 pt-10 border-t border-white/10">
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
+                  {stats.map((stat, index) => (
+                    <div key={index} className="glass-panel p-5 text-center group hover:border-purple-500/40">
+                      <div className="text-3xl sm:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-indigo-300 to-cyan-300">
+                        {stat.value}
+                      </div>
+                      <div className="text-xs sm:text-sm font-medium text-slate-300 mt-1">
+                        {stat.label}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* 3. ABOUT ME SECTION */}
+          <section id="about" className="py-20 lg:py-28 relative">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+              <div className="text-center max-w-3xl mx-auto mb-16">
+                <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full text-xs font-semibold bg-purple-500/10 text-purple-300 border border-purple-500/20 mb-4">
+                  <span>🔍</span>
+                  <span>GET TO KNOW ME</span>
+                </div>
+                <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">About Me</h2>
+                <p className="mt-3 text-lg text-slate-300">Turning numbers into meaningful stories.</p>
+              </div>
+
+              <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start mb-20">
+                <div className="lg:col-span-6 glass-panel p-8 space-y-6">
+                  <div className="flex items-center space-x-4 pb-4 border-b border-white/10">
+                    <div className="w-16 h-16 rounded-2xl bg-gradient-to-tr from-purple-600 via-indigo-600 to-cyan-400 p-[2px]">
+                      <div className="w-full h-full bg-slate-950 rounded-[14px] flex items-center justify-center font-bold text-2xl text-purple-300">
+                        {personal.initials || 'DA'}
+                      </div>
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-bold text-white">{personal.name}</h3>
+                      <p className="text-sm text-purple-400 font-medium">{personal.role}</p>
+                      <p className="text-xs text-slate-400 mt-0.5 font-mono">{personal.location}</p>
+                    </div>
+                  </div>
+
+                  <p className="text-slate-200 leading-relaxed text-base">{personal.bioLong}</p>
+
+                  <div className="p-4 rounded-xl bg-purple-950/30 border border-purple-500/20">
+                    <h4 className="text-sm font-semibold text-purple-300 flex items-center space-x-2">
+                      <span>🎯</span>
+                      <span>Core Analytics Philosophy</span>
+                    </h4>
+                    <p className="text-xs text-slate-300 mt-1.5 leading-relaxed">
+                      "Data is only as valuable as the decisions it inspires. I strive to connect raw datasets to executive clarity, eliminating guesswork through verifiable metrics."
+                    </p>
+                  </div>
+                </div>
+
+                <div className="lg:col-span-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  {aboutCards.map((card, idx) => (
+                    <div key={idx} className="glass-panel p-6 flex flex-col justify-between hover:border-purple-500/40">
+                      <div>
+                        <div className="w-10 h-10 rounded-xl bg-purple-600/20 border border-purple-500/30 flex items-center justify-center text-xl mb-4">
+                          {card.icon}
+                        </div>
+                        <h4 className="text-xs font-bold uppercase tracking-wider text-purple-400">{card.title}</h4>
+                        <div className="text-base font-semibold text-white mt-1">{card.subtitle}</div>
+                      </div>
+                      <p className="text-xs text-slate-300 mt-3 pt-3 border-t border-white/5 leading-relaxed">{card.detail}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              <div className="mt-8">
+                <div className="text-center max-w-2xl mx-auto mb-12">
+                  <h3 className="text-2xl font-bold text-white">My Approach</h3>
+                  <p className="text-sm text-slate-300 mt-2">A structured 4-step framework from raw data exploration to executive action.</p>
+                </div>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                  {approachSteps.map((step, idx) => (
+                    <div key={idx} className="glass-panel p-6 relative group hover:border-purple-500/50 flex flex-col justify-between">
+                      <div>
+                        <div className="flex items-center justify-between mb-4">
+                          <span className="text-2xl font-extrabold font-mono text-slate-600 group-hover:text-purple-400 transition-colors">{step.step}</span>
+                          <span className="text-xl">{step.icon}</span>
+                        </div>
+                        <h4 className="text-base font-bold text-white group-hover:text-purple-300 transition-colors mb-2">{step.title}</h4>
+                        <p className="text-xs text-slate-300 leading-relaxed">{step.description}</p>
+                      </div>
+                      <div className="mt-4 pt-3 border-t border-white/5 flex items-center justify-between text-[11px] text-slate-500 font-mono">
+                        <span>Phase {idx + 1} of 4</span>
+                        <span className="text-purple-400">→</span>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* 4. SKILLS SECTION */}
+          <section id="skills" className="py-20 lg:py-28 relative">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+              <div className="text-center max-w-3xl mx-auto mb-12">
+                <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full text-xs font-semibold bg-indigo-500/10 text-indigo-300 border border-indigo-500/20 mb-4">
+                  <span>⚡</span>
+                  <span>TECHNICAL TOOLKIT</span>
+                </div>
+                <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">Skills & Technologies</h2>
+                <p className="mt-3 text-lg text-slate-300">My toolkit for data analysis and visualization.</p>
+              </div>
+
+              <div className="flex flex-wrap items-center justify-center gap-2 mb-12">
+                {skillCategories.map((cat) => (
+                  <button
+                    key={cat.id}
+                    onClick={() => setSelectedSkillCategory(cat.id)}
+                    className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all ${
+                      selectedSkillCategory === cat.id
+                        ? 'bg-gradient-to-r from-purple-600 to-indigo-600 text-white shadow-lg'
+                        : 'bg-slate-900 text-slate-400 hover:text-white border border-white/5'
+                    }`}
+                  >
+                    {cat.name}
+                  </button>
+                ))}
+              </div>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+                {filteredSkills.map((skill, index) => (
+                  <div key={index} className="glass-panel p-5 flex flex-col justify-between group hover:border-purple-500/50">
+                    <div>
+                      <div className="flex items-center space-x-3 mb-3">
+                        <span className="text-2xl">{skill.icon}</span>
+                        <h3 className="text-base font-bold text-white group-hover:text-purple-300 transition-colors">{skill.name}</h3>
+                      </div>
+                      <div className="mb-3">
+                        <span className={`inline-block px-2.5 py-0.5 rounded-full text-[11px] font-semibold border ${
+                          skill.level === 'Advanced' ? 'bg-emerald-500/10 text-emerald-400 border-emerald-500/30' :
+                          skill.level === 'Intermediate' ? 'bg-blue-500/10 text-blue-400 border-blue-500/30' :
+                          'bg-purple-500/10 text-purple-300 border-purple-500/30'
+                        }`}>
+                          {skill.level}
+                        </span>
+                      </div>
+                      <p className="text-xs text-slate-300 leading-relaxed">{skill.description}</p>
+                    </div>
+                    <div className="mt-4 pt-3 border-t border-white/5 text-[10px] font-mono text-slate-400 capitalize">
+                      {skill.category}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+
+          {/* 5. SERVICES SECTION */}
+          <section id="services" className="py-20 lg:py-28 relative">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+              <div className="text-center max-w-3xl mx-auto mb-16">
+                <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full text-xs font-semibold bg-cyan-500/10 text-cyan-300 border border-cyan-500/20 mb-4">
+                  <span>💼</span>
+                  <span>WHAT I CAN HELP WITH</span>
+                </div>
+                <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">What I Can Help With</h2>
+                <p className="mt-3 text-lg text-slate-300">End-to-end data analytics solutions tailored to business goals.</p>
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+                {services.map((service, index) => (
+                  <div key={index} className="glass-panel p-7 flex flex-col justify-between group hover:border-purple-500/50 relative overflow-hidden">
+                    <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-purple-500 via-indigo-500 to-cyan-400 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                    <div>
+                      <div className="flex items-center justify-between mb-5">
+                        <div className="w-12 h-12 rounded-2xl bg-purple-600/20 border border-purple-500/30 flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
+                          {service.icon}
+                        </div>
+                        <span className="text-2xl font-extrabold font-mono text-slate-700 group-hover:text-purple-400/60">0{index + 1}</span>
+                      </div>
+                      <h3 className="text-xl font-bold text-white group-hover:text-purple-300 mb-3">{service.title}</h3>
+                      <p className="text-sm text-slate-300 leading-relaxed mb-5">{service.description}</p>
+                      <div className="space-y-2 pt-4 border-t border-white/5">
+                        <div className="text-[11px] font-mono text-slate-400 uppercase tracking-wider font-semibold">Key Deliverables:</div>
+                        <ul className="space-y-1.5">
+                          {service.deliverables.map((item, dIdx) => (
+                            <li key={dIdx} className="text-xs text-slate-300 flex items-start space-x-2">
+                              <span className="text-purple-400">✓</span>
+                              <span>{item}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    </div>
+                    <div className="mt-6 pt-4 border-t border-white/5 text-xs font-semibold text-purple-400">
+                      <a href="#contact" className="flex items-center space-x-1.5 hover:text-cyan-300">
+                        <span>Discuss a Project →</span>
+                      </a>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+
+          {/* 6. FEATURED PROJECTS SECTION */}
+          <section id="projects" className="py-20 lg:py-28 relative">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+              <div className="text-center max-w-3xl mx-auto mb-12">
+                <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full text-xs font-semibold bg-purple-500/10 text-purple-300 border border-purple-500/20 mb-4">
+                  <span>🚀</span>
+                  <span>PORTFOLIO SHOWCASE</span>
+                </div>
+                <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">Featured Data Projects</h2>
+                <p className="mt-3 text-lg text-slate-300">A selection of projects where I used data to find insights and solve problems.</p>
+              </div>
+
+              <div className="flex justify-center space-x-3 mb-12">
+                {['All', 'Power BI', 'Python'].map((cat) => (
+                  <button
+                    key={cat}
+                    onClick={() => setSelectedProjectCategory(cat)}
+                    className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all ${
+                      selectedProjectCategory === cat
+                        ? 'bg-gradient-to-r from-purple-600 to-indigo-600 text-white shadow-lg scale-105'
+                        : 'bg-slate-900 text-slate-400 hover:text-white border border-white/5'
+                    }`}
+                  >
+                    {cat} Projects
+                  </button>
+                ))}
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                {filteredProjects.map((project) => (
+                  <div key={project.id} className="glass-panel overflow-hidden flex flex-col justify-between group hover:border-purple-500/50 transition-all">
+                    <div>
+                      <div className="relative h-48 bg-gradient-to-br from-slate-950 via-slate-900 to-indigo-950/60 p-5 border-b border-white/10 flex flex-col justify-between">
+                        <div className="flex items-center justify-between">
+                          <span className="px-3 py-1 rounded-full text-xs font-mono font-bold bg-purple-600/30 text-purple-300 border border-purple-400/30">
+                            {project.category}
+                          </span>
+                          <button
+                            onClick={() => setActiveModalProject(project)}
+                            className="px-3 py-1 rounded-lg text-xs font-semibold bg-white/10 hover:bg-white/20 text-white"
+                          >
+                            Case Study ↗
+                          </button>
+                        </div>
+                        <div className="space-y-2">
+                          <div className="flex items-center space-x-2 text-xs font-mono text-slate-300">
+                            {project.metrics && project.metrics.slice(0, 2).map((m, i) => (
+                              <div key={i} className="bg-slate-900/80 px-2.5 py-1 rounded-md border border-white/10">
+                                <span className="text-slate-400 text-[10px]">{m.label}: </span>
+                                <span className="text-cyan-300 font-bold">{m.value}</span>
+                              </div>
+                            ))}
+                          </div>
+                          <div className="text-lg font-bold text-white group-hover:text-purple-300">{project.title}</div>
+                        </div>
+                      </div>
+
+                      <div className="p-6 space-y-5">
+                        <p className="text-sm text-slate-200 leading-relaxed">{project.summary}</p>
+                        <div className="flex flex-wrap gap-1.5">
+                          {project.tools.map((tool, idx) => (
+                            <span key={idx} className="px-2.5 py-1 rounded-md text-[11px] font-mono bg-slate-900 text-purple-300 border border-purple-500/20">
+                              {tool}
+                            </span>
+                          ))}
+                        </div>
+                        <div className="space-y-2 pt-3 border-t border-white/5">
+                          <div className="text-xs font-mono font-semibold text-slate-400 uppercase">Key Business Insights:</div>
+                          <ul className="space-y-1.5">
+                            {project.insights.map((insight, idx) => (
+                              <li key={idx} className="text-xs text-slate-300 flex items-start space-x-2">
+                                <span className="text-cyan-400 font-bold">▪</span>
+                                <span>{insight}</span>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="p-6 pt-0 border-t border-white/5 mt-4 flex flex-wrap items-center justify-between gap-3">
+                      <button
+                        onClick={() => setActiveModalProject(project)}
+                        className="px-4 py-2 rounded-xl text-xs font-semibold bg-purple-600/20 text-purple-300 border border-purple-500/30 hover:bg-purple-600/30"
+                      >
+                        View Details & Case Study ↗
+                      </button>
+                      <div className="flex items-center space-x-2">
+                        <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" className="p-2 rounded-lg bg-slate-800 text-slate-300 hover:text-white" title="Live Dashboard">
+                          📊 Live
+                        </a>
+                        <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" className="p-2 rounded-lg bg-slate-800 text-slate-300 hover:text-white" title="GitHub">
+                          💻 Code
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+
+          {/* 7. EXPERIENCE & EDUCATION SECTION */}
+          <section id="experience" className="py-20 lg:py-28 relative">
+            <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+              <div className="text-center max-w-3xl mx-auto mb-16">
+                <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full text-xs font-semibold bg-indigo-500/10 text-indigo-300 border border-indigo-500/20 mb-4">
+                  <span>🗺️</span>
+                  <span>MY JOURNEY</span>
+                </div>
+                <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">My Journey</h2>
+                <p className="mt-3 text-lg text-slate-300">Education, practical experience, and continuous learning in data analysis.</p>
+              </div>
+
+              <div className="relative border-l-2 border-purple-500/30 ml-4 sm:ml-32 space-y-12">
+                {journey.map((item, index) => (
+                  <div key={index} className="relative pl-8 sm:pl-10 group">
+                    <div className="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-slate-950 border-2 border-purple-500 group-hover:border-cyan-400 group-hover:scale-125 transition-all">
+                      <div className="w-1.5 h-1.5 rounded-full bg-purple-400 m-auto mt-[1px]"></div>
+                    </div>
+                    <div className="hidden sm:block absolute -left-36 top-1 text-right w-24">
+                      <span className="text-xs font-mono font-bold text-purple-400 bg-purple-950/40 border border-purple-500/30 px-2 py-1 rounded-md">
+                        {item.period}
+                      </span>
+                    </div>
+
+                    <div className="glass-panel p-6 group-hover:border-purple-500/40">
+                      <div className="sm:hidden mb-2">
+                        <span className="text-xs font-mono font-bold text-purple-400 bg-purple-950/40 border border-purple-500/30 px-2 py-0.5 rounded">
+                          {item.period}
+                        </span>
+                      </div>
+                      <div className="flex flex-wrap items-center justify-between gap-2 mb-2">
+                        <span className="px-2.5 py-0.5 rounded-full text-[11px] font-semibold border bg-purple-500/10 text-purple-400 border-purple-500/30">
+                          {item.type === 'experience' ? 'Experience' : item.type === 'education' ? 'Education' : 'Certification'}
+                        </span>
+                        <span className="text-xs text-slate-400 font-mono">📍 {item.location}</span>
+                      </div>
+                      <h3 className="text-lg font-bold text-white group-hover:text-purple-300">{item.role}</h3>
+                      <div className="text-sm font-semibold text-cyan-400 mb-3">{item.organization}</div>
+                      <ul className="space-y-1.5 text-xs text-slate-300 mb-4">
+                        {item.highlights.map((h, hIdx) => (
+                          <li key={hIdx} className="flex items-start space-x-2">
+                            <span className="text-purple-400">▪</span>
+                            <span className="leading-relaxed">{h}</span>
+                          </li>
+                        ))}
+                      </ul>
+                      {item.skills && (
+                        <div className="flex flex-wrap gap-1.5 pt-3 border-t border-white/5">
+                          {item.skills.map((s, sIdx) => (
+                            <span key={sIdx} className="px-2 py-0.5 rounded text-[10px] font-mono bg-slate-900 text-slate-300 border border-white/5">
+                              {s}
+                            </span>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+
+          {/* 8. CERTIFICATIONS SECTION */}
+          <section id="certifications" className="py-20 lg:py-28 relative">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+              <div className="text-center max-w-3xl mx-auto mb-16">
+                <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full text-xs font-semibold bg-emerald-500/10 text-emerald-300 border border-emerald-500/20 mb-4">
+                  <span>📜</span>
+                  <span>CREDENTIALS</span>
+                </div>
+                <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">Certificates & Learning</h2>
+                <p className="mt-3 text-lg text-slate-300">Formal certifications and specialized training in analytics & tooling.</p>
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {certifications.map((cert, index) => (
+                  <div key={index} className="glass-panel p-6 flex flex-col justify-between group hover:border-purple-500/50">
+                    <div>
+                      <div className="flex items-center justify-between mb-4">
+                        <span className="px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-purple-500/10 text-purple-300 border border-purple-500/20">
+                          {cert.badgeText}
+                        </span>
+                        <span className="text-xs text-slate-400 font-mono">{cert.date}</span>
+                      </div>
+                      <h3 className="text-base font-bold text-white group-hover:text-purple-300">{cert.title}</h3>
+                      <div className="text-xs font-medium text-cyan-400 mt-0.5">{cert.issuer}</div>
+                      <p className="text-xs text-slate-300 leading-relaxed mt-3">{cert.description}</p>
+                    </div>
+                    <div className="mt-5 pt-3 border-t border-white/5 flex items-center justify-between">
+                      <span className="text-[11px] font-mono text-emerald-400">✓ Verified Credential</span>
+                      <a href={cert.credentialId} target="_blank" rel="noopener noreferrer" className="text-xs font-semibold text-purple-400 hover:text-purple-300">
+                        Show Credential ↗
+                      </a>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+
+          {/* 9. CONTACT SECTION */}
+          <section id="contact" className="py-20 lg:py-28 relative">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+              <div className="text-center max-w-3xl mx-auto mb-16">
+                <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full text-xs font-semibold bg-purple-500/10 text-purple-300 border border-purple-500/20 mb-4">
+                  <span>📬</span>
+                  <span>LET’S CONNECT</span>
+                </div>
+                <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">Let’s Turn Data Into Decisions</h2>
+                <p className="mt-3 text-lg text-slate-300">
+                  Looking for a data analyst, dashboard developer, or someone who can turn complex data into clear business insights? Let’s connect.
+                </p>
+              </div>
+
+              <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+                <div className="lg:col-span-5 space-y-6">
+                  <div className="glass-panel p-6 space-y-6">
+                    <h3 className="text-xl font-bold text-white">Contact Channels</h3>
+                    <div className="space-y-4">
+                      <div className="flex items-center space-x-4 p-3 rounded-xl bg-slate-950/60 border border-white/5">
+                        <span className="text-xl">✉️</span>
+                        <div>
+                          <div className="text-[11px] font-mono text-slate-400">EMAIL</div>
+                          <a href={`mailto:${personal.email}`} className="text-sm font-semibold text-white hover:text-purple-300">
+                            {personal.email}
+                          </a>
+                        </div>
+                      </div>
+                      <div className="flex items-center space-x-4 p-3 rounded-xl bg-slate-950/60 border border-white/5">
+                        <span className="text-xl">📞</span>
+                        <div>
+                          <div className="text-[11px] font-mono text-slate-400">PHONE</div>
+                          <a href={`tel:${personal.phone}`} className="text-sm font-semibold text-white hover:text-indigo-300">
+                            {personal.phone}
+                          </a>
+                        </div>
+                      </div>
+                      <div className="flex items-center space-x-4 p-3 rounded-xl bg-slate-950/60 border border-white/5">
+                        <span className="text-xl">📍</span>
+                        <div>
+                          <div className="text-[11px] font-mono text-slate-400">LOCATION</div>
+                          <div className="text-sm font-semibold text-white">{personal.location}</div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="pt-4 border-t border-white/10 space-y-3">
+                      <div className="text-xs font-mono text-slate-400 uppercase">Profiles & Resume:</div>
+                      <div className="flex flex-wrap gap-3">
+                        <a href={personal.linkedin} target="_blank" rel="noopener noreferrer" className="px-4 py-2 rounded-xl text-xs font-semibold bg-slate-950 border border-white/10 hover:border-purple-500/40">
+                          LinkedIn ↗
+                        </a>
+                        <a href={personal.github} target="_blank" rel="noopener noreferrer" className="px-4 py-2 rounded-xl text-xs font-semibold bg-slate-950 border border-white/10 hover:border-purple-500/40">
+                          GitHub ↗
+                        </a>
+                        <a href={personal.resumeUrl} target="_blank" rel="noopener noreferrer" className="px-4 py-2 rounded-xl text-xs font-semibold bg-purple-600/20 text-purple-300 border border-purple-500/30">
+                          Resume (PDF) ↓
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="lg:col-span-7">
+                  <div className="glass-panel p-8">
+                    <h3 className="text-xl font-bold text-white mb-2">Send a Message</h3>
+                    <p className="text-sm text-slate-300 mb-6">Fill out the details below and I will get back to you promptly.</p>
+
+                    {submitSuccess && (
+                      <div className="mb-6 p-4 rounded-xl bg-emerald-950/40 border border-emerald-500/40 text-emerald-300 text-sm">
+                        ✓ <strong>Message Dispatched!</strong> Thank you for reaching out. I will respond to you shortly.
+                      </div>
+                    )}
+
+                    <form onSubmit={handleContactSubmit} noValidate className="space-y-5">
+                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                        <div>
+                          <label className="block text-xs font-mono uppercase text-slate-300 mb-2">Your Name *</label>
+                          <input
+                            type="text"
+                            value={formData.name}
+                            onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+                            placeholder="e.g. Jane Doe"
+                            className="w-full px-4 py-3 rounded-xl bg-slate-950/70 border border-white/10 text-white text-sm focus:border-purple-500 focus:outline-none"
+                          />
+                          {formErrors.name && <p className="mt-1 text-xs text-red-400">{formErrors.name}</p>}
+                        </div>
+                        <div>
+                          <label className="block text-xs font-mono uppercase text-slate-300 mb-2">Email Address *</label>
+                          <input
+                            type="email"
+                            value={formData.email}
+                            onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                            placeholder="e.g. jane@company.com"
+                            className="w-full px-4 py-3 rounded-xl bg-slate-950/70 border border-white/10 text-white text-sm focus:border-purple-500 focus:outline-none"
+                          />
+                          {formErrors.email && <p className="mt-1 text-xs text-red-400">{formErrors.email}</p>}
+                        </div>
+                      </div>
+
+                      <div>
+                        <label className="block text-xs font-mono uppercase text-slate-300 mb-2">Subject *</label>
+                        <input
+                          type="text"
+                          value={formData.subject}
+                          onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
+                          placeholder="e.g. Data Analyst Opportunity"
+                          className="w-full px-4 py-3 rounded-xl bg-slate-950/70 border border-white/10 text-white text-sm focus:border-purple-500 focus:outline-none"
+                        />
+                        {formErrors.subject && <p className="mt-1 text-xs text-red-400">{formErrors.subject}</p>}
+                      </div>
+
+                      <div>
+                        <label className="block text-xs font-mono uppercase text-slate-300 mb-2">Message *</label>
+                        <textarea
+                          rows="4"
+                          value={formData.message}
+                          onChange={(e) => setFormData({ ...formData, message: e.target.value })}
+                          placeholder="Describe your analytics goals, dataset requirements, or role details..."
+                          className="w-full px-4 py-3 rounded-xl bg-slate-950/70 border border-white/10 text-white text-sm focus:border-purple-500 focus:outline-none"
+                        ></textarea>
+                        {formErrors.message && <p className="mt-1 text-xs text-red-400">{formErrors.message}</p>}
+                      </div>
+
+                      <button
+                        type="submit"
+                        disabled={isSubmitting}
+                        className="px-8 py-3.5 rounded-xl font-semibold text-sm text-white bg-gradient-to-r from-purple-600 via-indigo-600 to-blue-600 shadow-lg shadow-purple-600/30 hover:scale-[1.02] disabled:opacity-50"
+                      >
+                        {isSubmitting ? 'Transmitting Message...' : 'Send Message ✈️'}
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* 10. FOOTER */}
+          <footer className="relative bg-slate-950/90 text-slate-400">
+            <div className="h-[2px] w-full bg-gradient-to-r from-transparent via-purple-500/80 to-transparent"></div>
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+              <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+                <div className="flex items-center space-x-3">
+                  <div className="w-8 h-8 rounded-lg bg-gradient-to-tr from-purple-600 to-indigo-600 flex items-center justify-center font-bold text-white text-xs">
+                    {personal.initials || 'DA'}
+                  </div>
+                  <div>
+                    <span className="text-sm font-bold text-white block">{personal.name}</span>
+                    <span className="text-xs text-slate-500 font-mono">Data Analyst Portfolio</span>
+                  </div>
+                </div>
+
+                <div className="flex flex-wrap items-center justify-center gap-6 text-xs font-medium">
+                  <a href="#home" className="hover:text-purple-300">Home</a>
+                  <a href="#about" className="hover:text-purple-300">About</a>
+                  <a href="#skills" className="hover:text-purple-300">Skills</a>
+                  <a href="#services" className="hover:text-purple-300">Services</a>
+                  <a href="#projects" className="hover:text-purple-300">Projects</a>
+                  <a href="#experience" className="hover:text-purple-300">Experience</a>
+                  <a href="#contact" className="hover:text-purple-300">Contact</a>
+                  <a href={personal.linkedin} target="_blank" rel="noopener noreferrer" className="hover:text-purple-300">LinkedIn</a>
+                  <a href={personal.github} target="_blank" rel="noopener noreferrer" className="hover:text-purple-300">GitHub</a>
+                </div>
+
+                <button
+                  onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+                  className="flex items-center space-x-1.5 px-3 py-1.5 rounded-lg bg-slate-900 border border-white/10 text-slate-300 text-xs hover:text-white"
+                >
+                  <span>Back to top ↑</span>
+                </button>
+              </div>
+
+              <div className="mt-8 pt-6 border-t border-white/5 text-center text-xs text-slate-500 font-mono">
+                <p>© 2026 {personal.name}. Built with Python mindset and modern web technologies.</p>
+              </div>
+            </div>
+          </footer>
+
+          {/* Active Case Study Modal Container */}
+          {activeModalProject && (
+            <CaseStudyModal
+              project={activeModalProject}
+              onClose={() => setActiveModalProject(null)}
+            />
+          )}
+        </div>
+      );
+    }
+
+    // Mount to Root
+    const root = ReactDOM.createRoot(document.getElementById('root'));
+    root.render(<PortfolioApp />);
+  </script>
+</body>
+</html>
